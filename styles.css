@@ -32,6 +32,20 @@ header {
     width: 100%;
 }
 
+.overview-hero img {
+    width:150px;
+}
+
+.stories article img {
+    width: 150px;
+    border-radius: 100%;
+    float: left;
+}
+
+.learn-about img {
+    width:200px;
+}
+
 header .container {
     display:flex;
     align-items: center;
@@ -59,10 +73,10 @@ header ul {
     font-size: 24px;
 }
 
-.learn-about .card {
+.cards .card {
     border-color: #E2E8F0;
     border-radius: 5px;
-    box-shadow: #6b7280;
+    box-shadow: #48BB78;
 }
 
 .card h3 {
