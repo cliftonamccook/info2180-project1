@@ -21,6 +21,12 @@ nav a:hover {
     background-color: #E2E8F0;
 }
 
+.overview-hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header {
     background-color: white;
     font-size: 18px;
@@ -87,6 +93,16 @@ header ul {
 .testing {
     background-color: #4A5568;
     color: white;
+}
+
+.testing .container {
+    display: flex;
+    align-items: center;
+}
+
+.cta a.btn {
+    display: inline-block;
+    align-self: flex-end;
 }
 
 .cta a {
