@@ -46,7 +46,7 @@ header {
 }
 
 .stories article img {
-    width: 150px;
+    width: 200px;
     border-radius: 100%;
     float: left;
     padding: 20px;
@@ -113,11 +113,16 @@ header ul {
 .cta a.btn {
     display: inline-block;
     align-self: flex-end;
+    white-space: nowrap;
 }
 
 .cta a {
     background-color: #48BB78;
     border-radius: 5px;
+}
+
+.stories .container {
+    padding: 50px 100px 50px 100px;
 }
 
 .stories h2, .stories p a {
