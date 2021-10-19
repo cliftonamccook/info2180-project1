@@ -41,6 +41,7 @@ header {
     width: 100%;
 }
 
+
 .overview-hero img {
     width:150px;
 }
@@ -57,13 +58,21 @@ header {
     height: 200px;
 }
 
-header .container {
+/* header .container {
     display:flex;
     align-items: center;
 }
 
 header .container h1 {
     align-self: flex-start;
+} */
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
 }
 
 header .container ul > li {
@@ -72,6 +81,10 @@ header .container ul > li {
 
 header ul {
     align-self: flex-end;
+}
+
+main {
+    clear: both;
 }
 
 .learn-about .cards {
