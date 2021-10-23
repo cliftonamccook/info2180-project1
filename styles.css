@@ -127,6 +127,7 @@ main {
     display: inline-block;
     align-self: flex-end;
     white-space: nowrap;
+    padding: 10px;
 }
 
 .cta a {
@@ -154,7 +155,9 @@ main {
 }
 
 button.btn {
+    /* float: right; */
     background-color: #5A67D8;
+    padding: 10px;
 }
 
 footer {
@@ -162,4 +165,5 @@ footer {
     color: white;
     margin-top: 0px;
     padding: 10px;
+    /* clear: both; */
 }
