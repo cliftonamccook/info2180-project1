@@ -82,6 +82,11 @@ main {
     clear: both;
 }
 
+.learn-about .container {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
 .learn-about .cards {
     display: grid;
     grid-gap: 10px;
@@ -93,6 +98,7 @@ main {
 .learn-about h2 {
     color: #48BB78;
     font-size: 24px;
+    padding-left: 20px;
 }
 
 .cards .card {
