@@ -28,6 +28,10 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 header {
@@ -44,6 +48,10 @@ header {
 
 .overview-hero img {
     width:150px;
+}
+
+.overview-hero-text {
+    padding-left: 50px;
 }
 
 .stories article img {
@@ -79,9 +87,9 @@ header .container ul > li {
     display: inline;
 }
 
-header ul {
+/* header ul {
     align-self: flex-end;
-}
+} */
 
 main {
     clear: both;
@@ -103,7 +111,7 @@ main {
 .cards .card {
     border: solid #E2E8F0;
     border-radius: 5px;
-    box-shadow: #48BB78;
+    box-shadow: 2px 5px #6e747e;
     padding: 20px;
 }
 
@@ -121,6 +129,14 @@ main {
 .testing .container {
     display: flex;
     align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.testing p {
+    padding-right: 50px;
 }
 
 .cta a.btn {
@@ -133,10 +149,15 @@ main {
 .cta a {
     background-color: #48BB78;
     border-radius: 5px;
+    color: white;
+    text-decoration: none;
 }
 
 .stories .container {
-    padding: 50px 100px 50px 100px;
+    /* padding: 50px 100px 50px 100px; */
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
 }
 
 .stories h2, .stories p a {
@@ -147,6 +168,14 @@ main {
     font-size: 18px;
 }
 
+.stories article {
+    margin: 20px;
+}
+
+.stories h2 {
+    padding-left: 60px;
+}
+
 .newsletter {
     background-color: #48BB78;
     color: white;
@@ -154,9 +183,38 @@ main {
     padding: 30px;
 }
 
+.newsletter .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter p {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+
 button.btn {
     /* float: right; */
     background-color: #5A67D8;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 0;
     padding: 10px;
 }
 
@@ -164,6 +222,6 @@ footer {
     background-color: #4A5568;
     color: white;
     margin-top: 0px;
-    padding: 10px;
+    padding: 10px 10px 10px 100px;
     /* clear: both; */
 }
